@@ -133,7 +133,7 @@ public class TelaPrincipal extends JFrame {
 		layeredPane.add(lblNewLabel_5);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Java\\Pictures\\pngtree-dazzling-red-streamers-ad-background-backgroundwarmreddazzlingribbonbeautifulsimplelight-image_68870.jpg"));
+		lblNewLabel.setIcon(new ImageIcon("C:\\Java_aula\\Workspace\\SorteadorAleatorio\\image\\background.jpg"));
 		lblNewLabel.setBounds(10, 11, 669, 377);
 		layeredPane.add(lblNewLabel);
 	}
