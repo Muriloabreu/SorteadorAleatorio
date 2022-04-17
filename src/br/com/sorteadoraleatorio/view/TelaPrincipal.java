@@ -94,11 +94,11 @@ public class TelaPrincipal extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				int nMinimo = Integer.parseInt(txtN1.getText()),
-						nMaximo = Integer.parseInt(txtN2.getText());				
+					nMaximo = Integer.parseInt(txtN2.getText());				
 		        double nAleatorio = Math.random();
 		        
 		      //METODO 
-		        nMaximo++; // esse procedimento de autoincremento serve para que o número máximo que o usuário escolheu seja sorteado
+		        nMaximo++; // Esse procedimento de autoincremento serve para que o número máximo que o usuário escolheu seja sorteado
 		        int resultado = (int) (nMinimo + nAleatorio * (nMaximo - nMinimo));
 		        textNumAle.setText(Integer.toString(resultado));				
 				
